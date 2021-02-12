@@ -1,0 +1,248 @@
+.wrapper.mm-page .recommended .section-title--wrapper {
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.section-title--wrapper {
+    margin-top: 87px;
+    margin-bottom: 70px;
+}
+
+.js-slide-carousel .slick-prev2.slick-arrow {
+    z-index: 2;
+}
+
+.js-slide-carousel .slick-prev2.slick-arrow {
+    left: -40px;
+    position: absolute;
+    width: 50px;
+    height: 300px;
+    font-size: 20px;
+    color: #fff;
+    background: #888;
+    border: 0;
+    top: 20%;
+    cursor: pointer;
+}
+
+
+.js-slide-carousel .slick-prev3.slick-arrow {
+    z-index: 2;
+}
+
+.js-slide-carousel .slick-prev3.slick-arrow {
+    left: -40px;
+    position: absolute;
+    width: 50px;
+    height: 300px;
+    font-size: 20px;
+    color: #fff;
+    background: #888;
+    border: 0;
+    top: 20%;
+    cursor: pointer;
+}
+
+.js-slide-carousel .slick-prev4.slick-arrow {
+    z-index: 2;
+}
+
+.js-slide-carousel .slick-prev4.slick-arrow {
+    left: -40px;
+    position: absolute;
+    width: 50px;
+    height: 300px;
+    font-size: 20px;
+    color: #fff;
+    background: #888;
+    border: 0;
+    top: 20%;
+    cursor: pointer;
+}
+
+.product {
+    position: relative;
+    margin: 0 auto 34px;
+}
+
+.product.product--lg {
+    max-width: 370px;
+    width: 100%;
+}
+
+.sub-img-list__item, .product__img {
+    background: #ccc;
+}
+
+.product__img {
+    position: relative;
+}
+
+.badge-list {
+    position: absolute;
+    top: 0;
+    left: 18px;
+    top: 18px;
+}
+
+
+
+
+.product__body {
+    position: absolute;
+    bottom: 16px;
+    left: 17px;
+    right: 17px;
+    background: #f9f8f9;
+    text-align: center;
+    padding: 26px 38px;
+    z-index: 2;
+}
+
+
+.product__category {
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #9b9b9b;
+    line-height: 13px;
+    margin-bottom: 22px;
+}
+
+.product_code {
+    font-size: 12px;
+    color: #6b6b6b;
+    line-height: 20px;
+}
+
+
+.product__desc {
+    color: #000;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.product__price.product__price--default {
+    font-size: 22px;
+}
+
+
+.product__price.product__price--default {
+    color: #b98d0f;
+    font-size: 24px;
+    line-height: 20px;
+}
+
+
+.product__price {
+    margin-top: 18px;
+    position: relative;
+}
+
+
+.sale-price {
+    position: absolute;
+    color: #b8b8b8;
+    font-family: Circe;
+    font-size: 18px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 20px;
+    text-align: center;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    left: 35px;
+    top: 1px;
+    text-decoration: line-through;
+    
+}
+
+.btn-see-more {
+    background: rgba(37,61,106,0.9);
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 14px;
+    letter-spacing: 2px;
+    position: absolute;
+    left: 17px;
+    right: 17px;
+    bottom: -34px;
+    padding: 15px 0;
+    line-height: 20px;
+    -webkit-transform: translateY(-50px);
+    transform: translateY(-50px);
+    -webkit-transition: .5s ease 0s;
+    transition: .5s ease 0s;
+    z-index: 1;
+}
+
+.js-slide-carousel .slick-next2.slick-arrow {
+    right: -40px;
+    position: absolute;
+    width: 50px;
+    height: 300px;
+    font-size: 20px;
+    color: #fff;
+    background: #888;
+    border: 0;
+    top: 20%;
+    cursor: pointer;
+}
+
+.js-slide-carousel .slick-next3.slick-arrow {
+    right: -40px;
+    position: absolute;
+    width: 50px;
+    height: 300px;
+    font-size: 20px;
+    color: #fff;
+    background: #888;
+    border: 0;
+    top: 20%;
+    cursor: pointer;
+}
+
+.js-slide-carousel .slick-next4.slick-arrow {
+    right: -40px;
+    position: absolute;
+    width: 50px;
+    height: 300px;
+    font-size: 20px;
+    color: #fff;
+    background: #888;
+    border: 0;
+    top: 20%;
+    cursor: pointer;
+}
+
+.badge.badge__new {
+    background: #fff;
+    color: #000;
+    box-shadow: 0 5px 16px rgba(0, 0, 0, 0.14);
+  
+}
+.badge {
+    display: flex;
+    width: 70px;
+    height: 70px;
+    font-size: 12px;
+    text-transform: uppercase;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0;
+    text-align: center;
+    font-size: 75%;
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    
+}
+
+
+.badge.badge__sale {
+    background: #c2242d;
+    color: #fff;
+}
