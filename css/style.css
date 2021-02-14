@@ -341,6 +341,10 @@ template {
   display: none;
 }
 
+a {
+  outline: none;
+}
+
 img {
   max-width: 100%;
   vertical-align: middle;
@@ -1143,6 +1147,21 @@ a {
   top: 0;
   left: 18px;
   top: 18px;
+}
+
+.btn.btn-see-more {
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  opacity: 0;
+  bottom: -140px;
+}
+
+.product.product--lg:hover .btn.btn-see-more {
+  z-index: 11;
+  bottom: -80px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  opacity: 1;
 }
 
 .product__body {

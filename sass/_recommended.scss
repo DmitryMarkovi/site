@@ -88,7 +88,18 @@
     top: 18px;
 }
 
-
+.btn.btn-see-more {
+    transition: 0.3s;
+    opacity: 0;
+    bottom: -140px;
+  }
+  
+  .product.product--lg:hover .btn.btn-see-more {
+    z-index: 11;
+    bottom: -80px;
+    transition: 0.3s;
+    opacity: 1;
+  }
 
 
 .product__body {
