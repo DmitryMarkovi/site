@@ -1,0 +1,65 @@
+// левый сайтбар
+.wrapper {
+  width: 200px;
+  margin: 0 auto;
+  position: fixed;
+  right: 0;
+  top: 20%;
+}
+
+.card {
+  display: flex;
+  position: relative;
+  min-height: 50px;
+  overflow: hidden;
+  transition: 1s;
+  border: none;
+  margin-bottom: 5px;
+  
+
+}
+
+.card {
+  background-color: transparent;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  position: relative;
+  left: calc(100% - 42px);
+  transition: 1s;
+  width: 100%;
+  height: 50px;
+  
+}
+
+.content  a {
+  text-decoration: none;
+  color: #fff
+}
+
+
+.imge {
+  object-fit: contain;
+  margin-left: 10px;
+
+
+}
+
+.text {
+  display: flex;
+  align-items: center;
+  padding: 0 15px;
+  margin: 0;
+  height: 100%;
+  color:burlywood;
+  background: #375281;
+  width: 100%;
+  padding-right: 10px;
+}
+
+.content:hover{
+  transition: 1s;
+  left: 0;
+}

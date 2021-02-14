@@ -28,23 +28,24 @@ a
     border-color: #fff
     color: #fff
 
-    .btn-see-more
-        background: rgba(37,61,106,0.9)
-        text-transform: uppercase
-        color: #fff
-        font-size: 14px
-        letter-spacing: 2px
-        position: absolute
-        left: 17px
-        right: 17px
-        bottom: -34px
-        padding: 15px 0
-        line-height: 20px
-        -webkit-transform: translateY(-50px)
-        transform: translateY(-50px)
-        -webkit-transition: .5s ease 0s
-        transition: .5s ease 0s
-        z-index: 1
+.btn.btn-see-more
+    background: rgba(37,61,106,0.9)
+    text-transform: uppercase
+    color: #fff
+    font-size: 14px
+    letter-spacing: 2px
+    position: absolute
+    left: 17px
+    right: 17px
+    bottom: -34px
+    padding: 15px 0
+    line-height: 20px
+    transform: translateY(-50px)
+    -webkit-transition: .5s ease 0s
+    transition: .5s ease 0s
+    z-index: 1
+    transition: opacity .3s
+    
         
 .btn__grey
     font-size: 11px
@@ -57,7 +58,11 @@ a
     max-width: 207px
     margin: 0px 3px 0 21px
     text-decoration: none
-
+    transition: .5s ease 0s
+    &:hover
+        background-color: #303066
+        color: #fff
+        transition: .5s ease 0s
 
 
 .btn__red 
@@ -71,6 +76,11 @@ a
     max-width: 157px
     margin: 0 3px
     text-decoration: none
+    transition: .5s ease 0s
+    &:hover
+        background: blue
+        color: #fff
+        transition: .5s ease 0s
 
 //  Link
 

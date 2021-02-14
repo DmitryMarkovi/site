@@ -1,4 +1,54 @@
+.menu-burger__header span, .menu-burger__header:after, .menu-burger__header:before{
+    height: 4px;
+    width: 100%;
+    position: absolute;
+    background: #515758;
+    margin: 0 auto;
+    margin-top: 40px;
+    
+}
+
+.menu-burger__header span{
+    top: -2px;
+}
+.menu-burger__header:after, .menu-burger__header:before{
+    content: '';
+}
+.menu-burger__header:after{
+    bottom: 4px;
+}
+.menu-burger__header:before{
+    top: 9px;
+}
 
 
+.menu-burger__header.open-menu span {
+    opacity:0; 
+    transition: 0.2s; 
+}
+.menu-burger__header.open-menu:before {
+    transform: rotate(40deg);
+    top: -4.2px;
+    transition: 0.2s;
+}
+.menu-burger__header.open-menu:after {
+    transform: rotate(-40deg);
+    bottom: -4.2px;
+    transition: 0.2s;
+}
+
+//  Бургер кнопка
+
+.mobile-nav {
+    position: relative;
+}
+
+.mb__menu--nav {
+    display: none;
+
+}
 
 
+.menu-active {
+    display: block;
+}

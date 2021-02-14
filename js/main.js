@@ -18,11 +18,11 @@ $('.slider-record').slick({
           infinite: true,
           prevArrow: document.querySelector('.slick-prev2'),
           nextArrow: document.querySelector('.slick-next2'),
-          dots: true
+          
         }
       },
       {
-        breakpoint: 600,
+        breakpoint: 768,
         settings: {
           slidesToShow: 1,
           prevArrow: document.querySelector('.slick-prev2'),
@@ -65,7 +65,7 @@ $('.slider-record').slick({
           infinite: true,
           prevArrow: document.querySelector('.slick-prev3'),
           nextArrow: document.querySelector('.slick-next3'),
-          dots: true
+          
         }
       },
       {
@@ -77,18 +77,7 @@ $('.slider-record').slick({
           slidesToScroll: 1
         }
       },
-      {
-        breakpoint: 480,
-        settings: {
-          prevArrow: document.querySelector('.slick-prev3'),
-          nextArrow: document.querySelector('.slick-next3'),
-          slidesToShow: 1,
-          slidesToScroll: 1
-        }
-      }
-      // You can unslick at a given breakpoint now by adding:
-      // settings: "unslick"
-      // instead of a settings object
+     
     ]
   });
 
@@ -110,7 +99,7 @@ $('.slider-record').slick({
           nextArrow: document.querySelector('.slick-next4'),
           slidesToScroll: 1,
           infinite: true,
-          dots: true
+          
         }
       },
       {
@@ -121,21 +110,12 @@ $('.slider-record').slick({
           slidesToShow: 1,
           slidesToScroll: 1
         }
-      },
-      {
-        breakpoint: 480,
-        settings: {
-          prevArrow: document.querySelector('.slick-prev4'),
-          nextArrow: document.querySelector('.slick-next4'),
-          slidesToShow: 1,
-          slidesToScroll: 1
-        }
       }
-      // You can unslick at a given breakpoint now by adding:
-      // settings: "unslick"
-      // instead of a settings object
     ]
   });
+
+
+// Верхний Слайдер
 
   $('.slik-list').slick({
     prevArrow: document.querySelector('.slick-prev'),
@@ -154,7 +134,7 @@ $('.slider-record').slick({
           slidesToShow: 1,
           slidesToScroll: 1,
           infinite: true,
-          dots: true
+          
         }
       },
       {
@@ -165,36 +145,22 @@ $('.slider-record').slick({
           slidesToShow: 1,
           slidesToScroll: 1
         }
-      },
-      {
-        breakpoint: 480,
-        settings: {
-          prevArrow: document.querySelector('.slick-prev'),
-          nextArrow: document.querySelector('.slick-next'),
-          slidesToShow: 1,
-          slidesToScroll: 1
-        }
       }
-      // You can unslick at a given breakpoint now by adding:
-      // settings: "unslick"
-      // instead of a settings object
     ]
   });
   });
 
-  $(document).ready(function(){
 
-    (function($) {
-  
-      $('#header__icon').click(function(e){
-        e.preventDefault();
-        $('body').toggleClass('with--sidebar');
-      });
-      
-      $('#site-cache').click(function(e){
-        $('body').removeClass('with--sidebar');
-      });
-  
-    })(jQuery);
-  
-  });
+  //  Бургер Меню
+
+  $(document).ready(function() {
+    $('.menu-burger__header').click(function(){
+        $('.menu-burger__header').toggleClass('open-menu');
+        $('.mb__menu--nav').toggleClass('menu-active');
+    });
+
+
+   
+});
+
+

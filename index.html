@@ -6,43 +6,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
     <title>Document</title>
 </head>
 
 <body>
-    
-    <nav style="display: none;" class="mobile-menu mm-menu mm-menu_offcanvas mm-menu_position-right mm-menu_opened">
-        <div class="mm-panels">
-            <div class="mm-panel mm-panel_has-navbar mm-panel_opened" >
-                <div class="mm-navbar" >
-                    <a class="mm-navbar__title" href="#">Menu</a>
-                </div>
-                <ul class="mm-listview" >
-                    <li class="mm-listitem"><a href="#"></a></li>
-                    <!-- /.mm-listitem -->
-                    <li class="mm-listitem"><a href="#"></a></li>
-                    <!-- /.mm-listitem -->
-                    <li class="mm-listitem"><a href="#"></a></li>
-                    <!-- /.mm-listitem -->
-                    <li class="mm-listitem"><a href="#"></a></li>
-                    <!-- /.mm-listitem -->
-                    <li class="mm-listitem"><a href="#"></a></li>
-                    <!-- /.mm-listitem -->
-                    <li class="mm-listitem"><a href="#"></a></li>
-                    <!-- /.mm-listitem -->
-                    <li class="mm-listitem"><a href="#"></a></li>
-                    <!-- /.mm-listitem -->
-                    <li class="mm-listitem"><a href="#"></a></li>
-                    <!-- /.mm-listitem -->
-                </ul>
-            </div>
-            <!-- burger -->
-        </div>
-        <!-- mm-palens -->
-    </nav>
     <!-- nav -->
     <header class="header-mobile">
         <div class="header__bottom--wrapper">
@@ -59,7 +29,9 @@
                 <div class="header__phone">
                     <a href="+7 928 347 17 18"></a>
                 </div>
-                <a class="hamburger-wrap" href="#"></a>
+                <div class="menu-burger__header">
+                    <span></span>
+                </div>
             </div>
                 <!-- header__logo -->
                 <div class="header__bottom-btns">
@@ -82,6 +54,17 @@
                     <!-- bottom-nav header__bottom--menu -->
                 </div>
                 <!-- header__bottom-row-nav -->
+                <nav class="mb__menu--nav">
+   
+                    <ul class="mb__menu">
+                        <li class="mm-listitem"><a href="#" >Условия доставки</a></li>
+                        <li class="mm-listitem" ><a href="#" >Условия оплаты</a></li>
+                        <li class="mm-listitem"><a href="#"> Отзывы клиентов</a></li>
+                        <li class="mm-listitem"><a href="#"> Вопрос-ответ</a></li>
+                        <li class="mm-listitem"><a href="#"> Контакты</a></li>
+                    </ul>
+                </nav>
+    
             </div>
             <!-- /.header-bottom -->
         </div>
@@ -156,7 +139,7 @@
     <section class="banner-section">
         <div class="container pt-5">
             <div class="row">
-                <div class="col-sm-8">
+                <div class="col-sm-8 mb-mobile">
                     <div class="banner-slider js-banner-slider slick-initialized slick-slider">
                         <button type="button" class="slick-prev slick-arrow">
                             <i class="fa fa-angle-left" aria-hidden="true"></i>
@@ -164,19 +147,19 @@
                         <!-- назад -->
                         <div class="slik-list">
                             <div class="slick-track" >
-                                <div class="slick-slide slick-cloned mobile-cloned" style="width: 770px;">
+                                <div class="slide" >
                                     <div class="banner-slider__body">
                                         <img src="/img/sliderwoman.png" alt="шуба">
                                     </div>
                                     <div class="banner__content banner__content--lg" >
                                         <div class="banner__title banner__title--lg">Роскошное качество по разумной цене</div>
-                                        <div class="banner__txt"></div>
+                                        <a class="btn btn-border" href="#">Подробнее</a>
                                     </div>
                                 </div>
                             </div>
                             <!-- 1 -->
                             <div class="slick-track" >
-                                <div class="slick-slide slick-cloned mobile-cloned" style="width: 770px;">
+                                <div class="slide" >
                                     <div class="banner-slider__body">
                                         <img src="/img/sliderwoman.png" alt="шуба">
                                     </div>
@@ -188,7 +171,7 @@
                             </div>
                             <!-- 2 -->
                             <div class="slick-track" >
-                                <div class="slick-slide slick-cloned mobile-cloned"  style="width: 770px;">
+                                <div class="slide"  >
                                     <div class="banner-slider__body">
                                         <img src="/img/sliderwoman.png" alt="шуба">
                                     </div>
@@ -234,7 +217,7 @@
             </div>
             <!-- row-1 -->
             <div class="row">
-                <div class="col-sm-4">
+                <div class="col-sm-4 mb-mobile">
                     <a href="#" class="banner">
                         <img src="/img/man1.png" alt="man1">
                         <div class="banner__content banner__content--men1">
@@ -244,7 +227,7 @@
                     </a>
                 </div>
                 <!-- /.col-sm-4 -->
-                <div class="col-sm-8">
+                <div class="col-sm-8 mb-mobile">
                     <a href="#" class="banner">
                         <img style="float:right" src="/img/man2.png" alt="man2">
                         <div class="banner__content banner__content--men2">
@@ -262,7 +245,7 @@
     <!-- banner-section  -->
     <section class="advantages">
         <div class="container">
-            <div class="row">
+            <div class="row  advantures__mobile-block">
                 <div class="col-sm-auto">
                     <a class="item" href="#">
                         <div class="item__icon item__icon--1"></div>
@@ -373,7 +356,7 @@
                 <!-- button1 -->
                 <div class="slick-list draggable slider-record">
                     <div class="slick-track">
-                        <div class="slick-slide slick-cloned mobile-cloned" style="width: 390px;">
+                        <div class="slide-1" >
                             <div class="product product--lg">
                                 <div class="product__img">
                                     <a href="#">
@@ -393,12 +376,12 @@
                                     </div>
                                 </div>
                                 <!-- /.product__body -->
-                               
+                               <a class="btn btn-see-more" href="#">Подробнее</a>
                             </div>
                         </div>
                     </div>
                     <div class="slick-track">
-                        <div class="slick-slide slick-cloned mobile-cloned" style="width: 390px;">
+                        <div class="slide-1" >
                             <div class="product product--lg">
                                 <div class="product__img">
                                     <a href="#">
@@ -423,7 +406,7 @@
                         </div>
                     </div>
                     <div class="slick-track">
-                        <div class="slick-slide slick-cloned mobile-cloned" style="width: 390px;">
+                        <div class="slide-1" >
                             <div class="product product--lg">
                                 <div class="product__img">
                                     <a href="#">
@@ -448,7 +431,7 @@
                         </div>
                     </div>
                     <div class="slick-track">
-                        <div class="slick-slide slick-cloned mobile-cloned" style="width: 390px;">
+                        <div class="slide-1" >
                             <div class="product product--lg">
                                 <div class="product__img">
                                     <a href="#">
@@ -525,9 +508,9 @@
                     <i class="fa fa-angle-left" aria-hidden="true"></i>
                 </button>
                 <!-- button1 -->
-                <div class="slick-list draggable two-slider">
+                <div class="slick-list two-slider">
                     <div class="slick-track">
-                        <div class="slick-slide slick-cloned mobile-cloned" style="width: 390px;">
+                        <div class="slide-2" >
                             <div class="product product--lg">
                                 <div class="product__img">
                                     <a href="#">
@@ -556,7 +539,7 @@
                     </div>
                     <!-- 1 -->
                     <div class="slick-track">
-                        <div class="slick-slide slick-cloned mobile-cloned" style="width: 390px;">
+                        <div class="slide-2" >
                             <div class="product product--lg">
                                 <div class="product__img">
                                     <a href="#">
@@ -584,7 +567,7 @@
                     </div>
                     <!-- 2 -->
                     <div class="slick-track">
-                        <div class="slick-slide slick-cloned mobile-cloned" style="width: 390px;">
+                        <div class="slide-2" >
                             <div class="product product--lg">
                                 <div class="product__img">
                                     <a href="#">
@@ -612,7 +595,7 @@
                     </div>
                     <!-- 3 -->
                     <div class="slick-track">
-                        <div class="slick-slide slick-cloned mobile-cloned" style="width: 390px;">
+                        <div class="slide-2" >
                             <div class="product product--lg">
                                 <div class="product__img">
                                     <a href="#">
@@ -700,7 +683,7 @@
                 <!-- button1 -->
                 <div class="slick-list draggable three-slider">
                     <div class="slick-track">
-                        <div class="slick-slide slick-cloned mobile-cloned" style="width: 390px;">
+                        <div class="slide-3 " >
                             <div class="product product--lg">
                                 <div class="product__img">
                                     <a href="#">
@@ -727,7 +710,7 @@
                         </div>
                     </div>
                     <div class="slick-track">
-                        <div class="slick-slide slick-cloned mobile-cloned" style="width: 390px;">
+                        <div class="slide-3 " >
                             <div class="product product--lg">
                                 <div class="product__img">
                                     <a href="#">
@@ -754,7 +737,7 @@
                         </div>
                     </div>
                     <div class="slick-track">
-                        <div class="slick-slide slick-cloned mobile-cloned" style="width: 390px;">
+                        <div class="slide-3 " >
                             <div class="product product--lg">
                                 <div class="product__img">
                                     <a href="#">
@@ -781,7 +764,7 @@
                         </div>
                     </div>
                     <div class="slick-track">
-                        <div class="slick-slide slick-cloned mobile-cloned" style="width: 390px;">
+                        <div class="slide-3 " >
                             <div class="product product--lg">
                                 <div class="product__img">
                                     <a href="#">
@@ -841,7 +824,7 @@
                 <!-- col-md-8 -->
             </div>
             <div class="row">
-                <div class="col-md-2 mr-4  footer__conts">
+                <div class="col-md-4 mr-4  footer__conts  col-lg-3">
                     <div class="footer__phone">
                         <a href="#">+7 928 347 17 18</a>
                         <a href="#">+7 962 442-55-95</a>
@@ -851,10 +834,10 @@
                         г. Пятигорск,<br> ул. Краснослободская<br> д. 13
                     </div>
                 </div>
-                <div class="col-md-2 col-sm-3 ">
+                <div class="col-md-4 col-sm-3 col-lg-2">
                     <div class="footer__menu-col">
                         <div class="footer__menu-col--title">
-                            <a href="#">ЖЕНЩИНАМ</a>
+                            <a href="#">Шубы</a>
                         </div>
                         <ul class="footer__menu-col--list">
                             <li>Шубы из норки</li>
@@ -871,30 +854,28 @@
                     </div>
                 </div>
                 <!-- /.col-md-2 col-sm-3 -->
-                <div class="col-md-2 col-sm-3">
+                <div class="col-md-3 col-sm-3  col-lg-2">
                     <div class="footer__menu-col">
                         <div class="footer__menu-col--title">
-                            <a href="#">ЖЕНЩИНАМ</a>
+                            <a href="#">Дубленки</a>
                         </div>
                         <ul class="footer__menu-col--list">
-                            <li>Шубы из норки</li>
-                            <li>Цветные шубы</li>
+                            <li>Из норки</li>
+                            <li>Цветные</li>
                             <li>Шубы из мутона</li>
                             <li>Шубы из чернобурки</li>
                             <li>Шубы из астрагана</li>
                             <li>Шубы из соболя</li>
                             <li>Шубы из песца</li>
                             <li>Шубы из нутрии</li>
-                            <li>Шубы из каракуля</li>
-                            <li>Шубы комбинированные</li>
                         </ul>
                     </div>
                 </div>
                 <!-- /.col-md-2 col-sm-3 -->
-                <div class="col-md-2 col-sm-3">
+                <div class="col-md-6 col-sm-3  col-lg-2">
                     <div class="footer__menu-col">
                         <div class="footer__menu-col--title">
-                            <a href="#">ЖЕНЩИНАМ</a>
+                            <a href="#">Меховые жилеты</a>
                         </div>
                         <ul class="footer__menu-col--list">
                             <li>Шубы из норки</li>
@@ -902,19 +883,14 @@
                             <li>Шубы из мутона</li>
                             <li>Шубы из чернобурки</li>
                             <li>Шубы из астрагана</li>
-                            <li>Шубы из соболя</li>
-                            <li>Шубы из песца</li>
-                            <li>Шубы из нутрии</li>
-                            <li>Шубы из каракуля</li>
-                            <li>Шубы комбинированные</li>
                         </ul>
                     </div>
                 </div>
                 <!-- /.col-md-2 col-sm-3 -->
-                <div class="col-md-2 col-sm-3">
+                <div class="col-md-6 col-sm-3  col-lg-2">
                     <div class="footer__menu-col">
                         <div class="footer__menu-col--title">
-                            <a href="#">ЖЕНЩИНАМ</a>
+                            <a href="#">Изделия из кожи</a>
                         </div>
                         <ul class="footer__menu-col--list">
                             <li>Шубы из норки</li>
@@ -925,8 +901,6 @@
                             <li>Шубы из соболя</li>
                             <li>Шубы из песца</li>
                             <li>Шубы из нутрии</li>
-                            <li>Шубы из каракуля</li>
-                            <li>Шубы комбинированные</li>
                         </ul>
                     </div>
                 </div>
@@ -961,17 +935,47 @@
         <!-- /.footer_bottom -->
     </footer>
     <!-- /.footer -->
+    <div class="wrapper">
+        <div class="card" style="border: none;">
+          <div class="content">
+            <p class="text"><img class="img" src="/img/icon/delivery.svg" alt="img" class="imge"> &nbsp;&nbsp;<a href="#">Условия доставки</a></p>
+          </div>
+        </div>
+        <div class="card" style="border: none;">
+          <div class="content" >
+          <p class="text"> <img class="img" src="/img/icon/wallet.svg" alt="img" class="imge"> &nbsp;&nbsp;<a href="#">Условия оплаты</a></p>
+          </div>
+        </div>
+        <div class="card" style="border: none;">
+          <div class="content">
+            <p class="text"><img class="img" src="/img/icon/message.svg" alt="img" class="imge"> &nbsp;&nbsp;<a href="#">Отзывы клиентов</a></p>
+          </div>
+        </div>
+        <div class="card" style="border: none; background-color: none;">
+          <div class="content">
+            <p class="text"><img class="img" src="img/icon/questions.svg" alt="img" class="imge"> &nbsp;&nbsp;<a href="#">Вопрос-ответ</a></p>
+          </div>
+        </div>
+        <div class="card" style="border: none;" >
+          <div class="content">
+            <p class="text"><img class="img" src="img/icon/email.svg" alt="img" class="imge">&nbsp;&nbsp;<a href="#">Контакты</a></p>
+          </div>
+        </div>
+    
+      </div>
+   
 
 
 
 
 
-
-
-
-    <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
-    <script src="js/slick.min.js"></script>
+ 
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
     <script src="js/main.js"></script>
+    <script src="js/bottom.js"></script>
+    <script src="js/slick.min.js"></script>
+    
+    
 
 </body>
 

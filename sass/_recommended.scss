@@ -1,3 +1,5 @@
+// три слайдера скидки итд
+
 .wrapper.mm-page .recommended .section-title--wrapper {
     margin-top: 40px;
     margin-bottom: 30px;
@@ -68,6 +70,7 @@
 .product.product--lg {
     max-width: 370px;
     width: 100%;
+    position: relative;
 }
 
 .sub-img-list__item, .product__img {
@@ -158,24 +161,7 @@
     
 }
 
-.btn-see-more {
-    background: rgba(37,61,106,0.9);
-    text-transform: uppercase;
-    color: #fff;
-    font-size: 14px;
-    letter-spacing: 2px;
-    position: absolute;
-    left: 17px;
-    right: 17px;
-    bottom: -34px;
-    padding: 15px 0;
-    line-height: 20px;
-    -webkit-transform: translateY(-50px);
-    transform: translateY(-50px);
-    -webkit-transition: .5s ease 0s;
-    transition: .5s ease 0s;
-    z-index: 1;
-}
+
 
 .js-slide-carousel .slick-next2.slick-arrow {
     right: -40px;
@@ -246,3 +232,14 @@
     background: #c2242d;
     color: #fff;
 }
+
+
+.fa-rub {
+    font-size: 20px;
+    margin-left: 3px;
+}
+
+.fa-rub::before {
+    content: "\f158";
+}
+
